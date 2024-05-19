@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Mother's Day</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .message {
+            font-size: 3em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .image {
+            width: 300px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .sticker {
+            width: 200px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">Happy Mother's Day, Grace!</div>
+    <img src="https://media.giphy.com/media/3o6fJ8bCm8E1YrBrwI/giphy.gif" alt="Flowers GIF" class="image">
+    <img src="https://www.pinclipart.com/picdir/big/533-5331827_mother-daughter-clipart.png" alt="Mother Daughter Sticker" class="sticker">
+</body>
+</html>
